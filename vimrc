@@ -7,6 +7,9 @@ Plug 'tpope/vim-sensible'
 
 Plug 'nanotech/jellybeans.vim'
 
+" Allows the creation of scratch buffers
+Plug 'vim-scripts/scratch.vim'
+
 call plug#end()
 
 " Make jellybeans set the bg color instead of using the terminal's
