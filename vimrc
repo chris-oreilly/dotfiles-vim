@@ -13,6 +13,9 @@ Plug 'vim-scripts/scratch.vim'
 " Shows which lines were added/removed/changed in git diff
 Plug 'airblade/vim-gitgutter'
 
+" Provides git integration
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " Make jellybeans set the bg color instead of using the terminal's
@@ -27,3 +30,6 @@ set expandtab
 
 " Type jk to exit insert mode
 inoremap jk <esc>
+
+" Type \gs to open Fugitive's status menu
+nnoremap <leader>gs :Gstatus<cr>
