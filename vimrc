@@ -10,6 +10,9 @@ Plug 'nanotech/jellybeans.vim'
 " Allows the creation of scratch buffers
 Plug 'vim-scripts/scratch.vim'
 
+" Shows which lines were added/removed/changed in git diff
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 " Make jellybeans set the bg color instead of using the terminal's
