@@ -31,6 +31,11 @@ set expandtab
 " Show line numbers
 set number
 
+" Use comma as the leader key
+let mapleader=","
+" Use back-slash as the local leader
+let maplocalleader="\\"
+
 " Type jk to exit insert mode
 inoremap jk <esc>
 
