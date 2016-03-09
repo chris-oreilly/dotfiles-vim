@@ -31,6 +31,9 @@ set expandtab
 " Show line numbers
 set number
 
+" Subtly highlight the first column too far
+set colorcolumn=81
+
 " Use comma as the leader key
 let mapleader=","
 " Use back-slash as the local leader
