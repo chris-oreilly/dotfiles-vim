@@ -47,5 +47,5 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 " Source .vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-" Type \gs to open Fugitive's status menu
+" Open Fugitive's status menu
 nnoremap <leader>gs :Gstatus<cr>
