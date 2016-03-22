@@ -31,6 +31,9 @@ set expandtab
 " Show line numbers
 set number
 
+" Show whitespace characters
+set list
+
 " Subtly highlight the first column too far
 set colorcolumn=81
 
